@@ -1,4 +1,5 @@
 (function() {
+    console.log("Chedilex script loaded");
     function injectFooter() {
         // Targets the placeholder div in your websites
         const containers = document.querySelectorAll('.chedilex-footer-container');
