@@ -4,14 +4,8 @@
         const containers = document.querySelectorAll('.chedilex-footer-container');
         
         if (containers.length > 0) {
-            // Updated with your specific GitHub details
-            const username = "Tonyelchediac"; 
-            const repo = "chedilex-assets";
-            const branch = "main";
-            
             // CDN link to fetch your logo from the same repository
-            const repoPath = `https://cdn.jsdelivr.net/gh/${username}/${repo}@${branch}`;
-            const logoURL = `${repoPath}/logo.png`;
+            const logoURL = `https://cdn.jsdelivr.net/gh/Tonyelchediac/chedilex-assets@main/logo.png`;
 
             const footerHTML = `
                 <div class="chedilex-footer-content" style="margin-top: 20px; padding: 15px; display: flex; justify-content: center; align-items: center; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
